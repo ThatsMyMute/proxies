@@ -2,7 +2,7 @@
     "name": "Undercover",
     "description": "A basic web proxy that uses Nginx for safe browsing.",
     "repository": "https://github.com/3kh0/undercover",
-    "logo": "",
+    "logo": "https://github.com/3kh0/undercover/blob/main/public/logo.png?raw=true",
     "keywords": [
         "nginx",
         "docker"
