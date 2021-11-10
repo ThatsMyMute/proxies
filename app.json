@@ -1,11 +1,14 @@
 {
-    "name": "Undercover",
-    "description": "A basic web proxy that uses Nginx for safe browsing.",
-    "repository": "https://github.com/3kh0/undercover",
-    "logo": "https://github.com/3kh0/undercover/blob/main/public/logo.png?raw=true",
-    "keywords": [
-        "nginx",
-        "docker"
-    ],
-    "stack": "container"
+  "name": "Undercover",
+  "logo": "https://github.com/3kh0/undercover/blob/main/public/logo-full.png?raw=true"
+  "repository": "https://github.com/3kh0/undercover",
+  "success_url": "/",
+  "description": "A basic web proxy that uses nginx for safe browsing. View the GitHub repo for more information on how to use this.",
+  "stack": "container",
+  "keywords": [
+    "proxy",
+    "web proxy",
+    "undercover",
+    "heroku"
+  ]
 }
