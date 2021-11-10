@@ -88,3 +88,6 @@ table.GeneratedTable td, table.GeneratedTable th {
 table.GeneratedTable thead {
   background-color: #9e9e9e;
 }
+.down { color: #FF0000; }
+.up { color: #15ff00; }
+.kinda { color: #ffe100; }
