@@ -4,11 +4,5 @@
   "repository": "https://github.com/3kh0/undercover",
   "success_url": "/",
   "description": "A basic web proxy that uses nginx for safe browsing. View the GitHub repo for more information on how to use this.",
-  "stack": "container",
-  "keywords": [
-    "proxy",
-    "web proxy",
-    "undercover",
-    "heroku"
-  ]
+  "stack": "container"
 }
