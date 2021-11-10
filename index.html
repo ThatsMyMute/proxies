@@ -26,8 +26,8 @@
             <div>
                 <input class="w3-xlarge" type='text' placeholder='https://3kh0.github.io' id='url-target'
                     onkeydown='if(event.key==="Enter") go()' />
-                <button onclick='go()' class="w3-xlarge">Go!</button><br>
-              <br>
+                <button onclick='go()' class="w3-xlarge">Go!</button>
+              </div>
               <h2>Site Status</h2>
               <table class="GeneratedTable">
   <thead>
@@ -73,6 +73,16 @@
       <td class="up">Fully working</td>
       <td>Everything somehow works!</td>
     </tr>
+    <tr>
+      <td>google.com</td>
+      <td class="up">Working</td>
+      <td>Google search does work.</td>
+    </tr>
+    <tr>
+      <td>accounts.google.com</td>
+      <td class="down">Broken</td>
+      <td>Buttons do not work preventing sign-in.</td>
+    </tr>
     <!-- template
     <tr>
       <td>Cell</td>
@@ -82,7 +92,6 @@
 -->
   </tbody>
 </table>
-            </div>
         </div>
     </div>
   </body>
