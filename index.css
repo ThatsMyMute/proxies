@@ -68,38 +68,23 @@ body {
     width: 500px;
     margin: auto;
 }
-table.siteList {
-  font-family: "Lucida Console", Monaco, monospace;
-  border: 1px solid #1C6EA4;
-  background-color: #EEEEEE;
+table.GeneratedTable {
   width: 500px;
-  text-align: left;
+  background-color: #1c1c1c;
   border-collapse: collapse;
+  border-width: 2px;
+  border-color: #ffffff;
+  border-style: solid;
+  color: #ffffff;
 }
-table.siteList td, table.siteList th {
-  border: 1px solid #FFFFFF;
-  padding: 4px 2px;
+
+table.GeneratedTable td, table.GeneratedTable th {
+  border-width: 2px;
+  border-color: #ffffff;
+  border-style: solid;
+  padding: 3px;
 }
-table.siteList tbody td {
-  font-size: 13px;
-}
-table.siteList tr:nth-child(even) {
-  background: #D0E4F5;
-}
-table.siteList thead {
-  background: #1C6EA4;
-  background: -moz-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
-  background: -webkit-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
-  background: linear-gradient(to bottom, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
-  border-bottom: 2px solid #444444;
-}
-table.siteList thead th {
-  font-size: 15px;
-  font-weight: bold;
-  color: #FFFFFF;
-  text-align: center;
-  border-left: 2px solid #F5F5F5;
-}
-table.siteList thead th:first-child {
-  border-left: none;
+
+table.GeneratedTable thead {
+  background-color: #9e9e9e;
 }
